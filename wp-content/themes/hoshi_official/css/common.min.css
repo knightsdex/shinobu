@@ -24,6 +24,7 @@ body {
   line-height: var(--base_line_height);
   word-break: break-word;
 }
+
 body::after {
   content: "";
   position: fixed;
