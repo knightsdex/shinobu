@@ -147,7 +147,6 @@
   position: relative;
   display: block;
   margin-top: calc(var(--vw_px) * 0.01 * 5 * -1);
-  padding-bottom: calc(var(--main_distance) * 1.5);
 }
 #works_pc::before {
   position: absolute;
