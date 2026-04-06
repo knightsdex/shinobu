@@ -393,7 +393,7 @@
   z-index: 10;
 }
 #fv .logo img {
-  transform: translateZ(0) translateX(-30%);
+  transform: translateZ(0) translateX(-60%);
   opacity: 0;
 }
 #fv.open .kv_layer .kv_flat_items img {
