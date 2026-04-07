@@ -46,7 +46,7 @@ a {
 img {
   height: auto;
 }
-@media only screen and (max-width: 835px) {
+/* @media only screen and (max-width: 835px) {
   body {
     overflow: hidden;
     min-height: 100%;
@@ -56,22 +56,122 @@ img {
     overflow-x: hidden;
     pointer-events: auto;
   }
-}
+} */
 .pc_only {
   display: block;
 }
 .sp_only {
   display: none !important;
 }
-@media only screen and (max-width: 835px) {
+/* @media only screen and (max-width: 835px) {
   .pc_only {
     display: none !important;
   }
   .sp_only {
     display: block !important;
   }
+} */
+.kv_main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
+.chara {
+  position: absolute;
+}
+@media (max-width: 520px) {
+  #fv .logo .img1 {
+    margin-top: 2vh !important;
+  }
+
+  .chara1 img {
+    margin-top: 21vh !important;
+  }
+
+  .chara3 img {
+    margin-top: 21vh !important;
+  }
+
+  .chara5 img {
+    margin-top: 25vh !important;
+  }
+}
+@media (max-width: 720px) {
+  video {
+    width: 720px;
+  }
+}
+@media (max-width: 520px) {
+  video {
+    width: 520px;
+  }
+}
+@media (max-width: 390px) {
+  video {
+    width: 390px;
+  }
+}
+
+
+
+.chara img {
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* logo */
+.logo img {
+  margin-left: 20vw;
+  margin-top: 7vh;
+  width: 28vw;
+}
+
+/* characters */
+.chara1 img {
+  margin-left: 43vw;
+  margin-top: 32vh;
+  width: 18vw;
+  border-radius: 10%;
+  border: 4px solid #ffe600;
+  transform: rotate(15deg);
+}
+
+.chara2 img {
+  margin-left: -14vw;
+  margin-top: 14vh;
+  width: 18vw;
+  border-radius: 10%;
+  border: 4px solid #ffe600;
+  transform: rotate(15deg);
+}
+
+.chara3 img {
+  margin-left: 6vw;
+  margin-top: 35vh;
+  width: 20vw;
+  border-radius: 10%;
+  border: 4px solid #ffe600;
+  transform: rotate(-15deg);
+}
+
+.chara4 img {
+  margin-left: 62vw;
+  margin-top: 15vh;
+  width: 18vw;
+  border-radius: 10%;
+  border: 4px solid #ffe600;
+  transform: rotate(-15deg);
+}
+
+.chara5 img {
+  margin-left: 25vw;
+  margin-top: 46vh;
+  width: 20vw;
+  border-radius: 10%;
+  border: 4px solid #ffe600;
+}
 #loading {
   position: fixed;
   top: 0;

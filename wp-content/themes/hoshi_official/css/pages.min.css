@@ -8,15 +8,10 @@
 #fv .logo {
   position: absolute;
   top: 39%;
-  left: 28%;
+  left: 18%;
   width: 48%;
   height: auto;
   z-index: 2;
-}
-#fv .logo img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 #fv .kv_layer {
   position: absolute;
@@ -110,11 +105,10 @@
 }
 #fv .kv_layer .kv_main .chara img {
   display: block;
-  width: 100%;
   height: auto;
   pointer-events: none;
 }
-@media only screen and (max-width: 835px) {
+/* @media only screen and (max-width: 835px) {
   #fv {
     padding-top: min(var(--vh_px), 178.9473684211%);
   }
@@ -142,7 +136,8 @@
     height: 90%;
     transform: translate(-43%, -47%);
   }
-}
+} */
+
 #works_pc {
   position: relative;
   display: block;
