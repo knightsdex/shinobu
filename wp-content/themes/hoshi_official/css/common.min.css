@@ -120,7 +120,12 @@ img {
   object-fit: cover;
   display: block;
 }
-
+#loading .logo img {
+  margin-left: 20vw;
+  margin-top: 7vh;
+  width: 10vw;
+  height: 10vh;
+}
 /* logo */
 .logo img {
   margin-left: 20vw;
