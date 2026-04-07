@@ -1234,7 +1234,7 @@ footer .footer_wave .wave img {
   animation: hor_move_l 60s linear infinite;
 }
 footer .footer_main {
-  background-size: cover;       /* fills entire area */
+  background-size: 0%;       /* fills entire area */
   background-position: center;  /* keeps it centered */
   background-repeat: no-repeat; /* prevents tiling */
   background-image: url('../images/kv/footer-back.jpg');
